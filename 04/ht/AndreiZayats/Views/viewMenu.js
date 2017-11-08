@@ -4,9 +4,10 @@
 function clickCreate() {
     drawHtmlElem(htmlContext, createMenu());
     drawHtmlElem(htmlContext, createTextBlock());
-    
     var codeField = createFieldSet("");
-    codeField.innerHTML = createCalendar(tmpYear,tmpMonth);
+    var calendar = new Calendar(tmpYear,tmpMonth);
+    var calendarDiv = createDiv("calendar");
+    codeField.innerHTML = calendar.calendarOnMonth();
     document.getElementById("code").appendChild(codeField);
 }
 
