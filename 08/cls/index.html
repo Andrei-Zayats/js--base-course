@@ -14,18 +14,13 @@
   <div class="reveal">
     <div class="slides">
       <section>
-        <h1>Занятие 8</h1>
+        <h1>Вопросы?</h1>
       </section>
       <section>
-        <section>
-          <h1>Вопросы?</h1>
-        </section>
-        <section>
-          <h1>
-            <a href="https://rawgit.com/vvscode/js--base-course/master/questions/index.html" onclick="window.open('https://rawgit.com/vvscode/js--base-course/master/questions/index.html'); return false;"
-              target="_blank">Вопросы!</a>
-          </h1>
-        </section>
+        <h1>Вопросы</h1>
+      </section>
+      <section>
+        <h1>Занятие 8</h1>
       </section>
       <section>
         <h2>Тестирование</h2>
@@ -38,6 +33,9 @@
             <li class="fragment">Примеры использования</li>
             <li class="fragment">Поиск / проверка на ошибки</li>
           </ul>
+        </section>
+        <section>
+          <h1>Вопросы?</h1>
         </section>
         <section>
           <h4>Уровни тестирования</h4>
@@ -59,10 +57,6 @@
         <section>
           <h1>Вопросы?</h1>
         </section>
-      </section>
-      <section>
-        Виды тестов
-        <br />
         <section>
           <h4>По объекту тестирования</h4>
           <ul>
@@ -77,6 +71,9 @@
           </ul>
         </section>
         <section>
+          <h1>Вопросы?</h1>
+        </section>
+        <section>
           <h4>Относительно выполнения кода:</h4>
           <ul>
             <li class="fragment">Без выполнения кода</li>
@@ -86,46 +83,32 @@
         </section>
       </section>
       <section>
-        <h1>Вопросы?</h1>
+        <h4>Тестирование без выполнения - статический анализ</h4>
+        <ul>
+          <li class="fragment">Типизация:
+            <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> /
+            <a href="https://flow.org/" target="_blank">Flow</a> /
+            <a href="http://usejsdoc.org/" target="_blank">JSDoc</a>
+          </li>
+          <li class="fragment">Анализ AST:
+            <a href="http://jshint.com/" target="_blank">JSHint</a>,
+            <a href="http://www.jslint.com/" target="_blank">JSLint</a>,
+            <a href="http://eslint.org/" target="_blank">ESLint</a>
+          </li>
+          <li class="fragment">Комплексные инструменты:
+            <a href="https://www.sonarqube.org/" target="_blank">SonarQube</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h4>Ручное тестирование</h4>
+        <p>
+          <strong>Важно!</strong> Иметь сценарии использования, чтобы тестировать методически.</p>
+        <p>Хаотичное тестирование - метод свободного поиска.</p>
       </section>
       </section>
       <section>
-        И еще про виды тестирования
-        <br />
-        <section>
-          <h4>Тестирование без выполнения - статический анализ</h4>
-          <ul>
-            <li class="fragment">Типизация:
-              <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> /
-              <a href="https://flow.org/" target="_blank">Flow</a> /
-              <a href="http://usejsdoc.org/" target="_blank">JSDoc</a>
-            </li>
-            <li class="fragment">Анализ AST:
-              <a href="http://jshint.com/" target="_blank">JSHint</a>,
-              <a href="http://www.jslint.com/" target="_blank">JSLint</a>,
-              <a href="http://eslint.org/" target="_blank">ESLint</a>
-            </li>
-            <li class="fragment">Комплексные инструменты:
-              <a href="https://www.sonarqube.org/" target="_blank">SonarQube</a>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h1>Вопросы?</h1>
-        </section>
-        <section>
-          <h4>Ручное тестирование</h4>
-          <p>
-            <strong>Важно!</strong> Иметь сценарии использования, чтобы тестировать методически.</p>
-          <p>Хаотичное тестирование - метод свободного поиска.</p>
-        </section>
-        <section>
-          <h1>Вопросы?</h1>
-        </section>
-        <section>Автоматизированное тестирование</section>
-      </section>
-      <section>Автоматизированное тестирование
-        <br />
+        <h4>Автоматизированное тестирование</h4>
         <section>
           <p>По уровню:</p>
           <ul>
@@ -136,14 +119,13 @@
           </ul>
         </section>
         <section>
-          <h1>Вопросы?</h1>
-        </section>
-        <section>
           <p>
             <strong>Общий подход:</strong> Выполнить код и проверить результат его работы</p>
         </section>
       </section>
-      </sectiodn>
+      <section>
+        <h1>Вопросы?</h1>
+      </section>
       <section>
         <h4>Модульное тестирование</h4>
         <section>
@@ -184,10 +166,10 @@ describe('Array', function() {
             </code></pre>
         </section>
         <section>
-          <img src="https://mochajs.org/images/reporter-spec-duration.png" alt="Success tests" style="border:none;">
+          <img src="https://mochajs.org/static/reporter-spec-duration.resize920,9999.f3601d937d.png" alt="Success tests" style="border:none;">
         </section>
         <section>
-          <img src="https://mochajs.org/images/reporter-string-diffs.png" alt="Failed tests" style="border:none;">
+          <img src="https://mochajs.org/static/reporter-string-diffs.resize920,9999.7b631dd246.png" alt="Failed tests" style="border:none;">
         </section>
         <section>
           <pre><code data-trim class="javascript line-numbers" style="font-size: smaller;max-height: 550px;">
@@ -217,6 +199,21 @@ describe('Connection', function() {
           <h1>Вопросы?</h1>
         </section>
         <section>
+          <h3>Почему его не достаточно?</h3>
+        </section>
+        <section>
+          <img src="http://ilkinulas.github.io/assets/integration_tests/no_integration_test.gif" alt="No integration tests" style="border:none;">
+        </section>
+        <section>
+          <img src="https://i.imgur.com/HkWPc1u.gif" alt="No integration tests" style="border:none;">
+        </section>
+        <section>
+          <img src="http://james-willett.com/wp-content/uploads/2016/05/2toilets.jpg" alt="No integration tests" style="border:none;">
+        </section>
+        <section>
+          <img src="https://pbs.twimg.com/media/C2oAur4UcAE-QaF.jpg" alt="No integration tests" style="border:none;">
+        </section>
+        <section>
           <p>
             <a target="_blank" src="https://habrahabr.ru/post/116372/">Вспомогательные объекты/методы</a>
           </p>
@@ -229,9 +226,9 @@ describe('Connection', function() {
             <strong>mock object (мок-объект)</strong>, очень похож на тестовый шпион, однако не записывает последовательность вызовов
             с переданными параметрами для последующей проверки</p>
         </section>
-        <section>
-          <h1>Вопросы?</h1>
-        </section>
+      </section>
+      <section>
+        <h1>Вопросы?</h1>
       </section>
       <section>
         <h4>UI тестирование</h4>
@@ -248,6 +245,10 @@ describe('Connection', function() {
               <sup>*</sup>
             </li>
           </ul>
+        </section>
+        <section>
+          <img src="https://camo.githubusercontent.com/9c73b0edee5cea08d22cff8e2a7966a01b18846d/68747470733a2f2f63646e322e68756273706f742e6e65742f68756266732f3130303030362f696d616765732f73625f64656d6f2e676966"
+            alt="Selenium tests" style="border:none; height: 500px;">
         </section>
         <section>
           <ul>
@@ -284,37 +285,9 @@ client
     .end();
             </code></pre>
         </section>
-        <section>
-          <h1>Вопросы?</h1>
-        </section>
-        <section>
-          Тестирование верстки
-          <br />
-          <a target="_blank" href="https://habrahabr.ru/company/yandex/blog/238323/" onclick="window.open('https://habrahabr.ru/company/yandex/blog/238323/')">Тестирование CSS-регрессий с Gemini</a>
-          <br />
-          <img src="https://css-tricks.com/wp-content/uploads/2015/11/output.png" />
-        </section>
       </section>
       <section>
-        <a href="https://codepen.io/vvscode/pen/XgxJRJ?editors=0010#0" target="_blank" onclick="window.open('https://codepen.io/vvscode/pen/XgxJRJ?editors=0010#0'); return false;">Разбор примера тестов</a>
-      </section>
-      <section>
-        Общая автоматизация
-        <br />
-        <ul>
-          <li>
-            <a href="https://www.npmjs.com/package/robotjs" target="_blank" onclick="window.open('https://www.npmjs.com/package/robotjs');return false">robotjs</a>
-          </li>
-          <li>
-            <a href="https://www.npmjs.com/package/appium" target="_blank" onclick="window.open('https://www.npmjs.com/package/appium');return false">Appium</a>
-          </li>
-          <li>
-            <a href="" target="_blank" onclick="window.open('xxx');return false"></a>
-          </li>
-          <li>
-            <a href="" target="_blank" onclick="window.open('xxx');return false"></a>
-          </li>
-        </ul>
+        <a href="https://codepen.io/vvscode/pen/weEdPK?editors=1010" target="_blank">Разбор примера тестов</a>
       </section>
       <section>
         <h1>Вопросы?</h1>
